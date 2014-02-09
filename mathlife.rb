@@ -49,7 +49,6 @@ end
 def timecalc
 	$start = Time.now
 	$finish = Time.now + 25
-	$z = 1
 	$all = $finish.to_i - $start.to_i
 	$gametime = $finish - Time.now
 end
